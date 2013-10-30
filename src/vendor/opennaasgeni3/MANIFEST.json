@@ -1,0 +1,9 @@
+{
+ "name" : "OpenNaas (Test) delegate",
+ "author" : "Héctor Fernández",
+ "author-email" : "hbfernandezr@gmail.com",
+ "version" : 1,
+ "implements" : [],
+ "loads-after" : ["geniv3handler", "geniv3delegatebase", "geniv3exceptions", "opennaasresourcemanager", "opennaasexceptions", "opennaas_commands", "config"],
+ "requires" : []
+}

@@ -1,0 +1,9 @@
+{
+  "name" : "OPENNAAS (Test) resource manager",
+  "author" : "Héctor Fernández",
+  "author-email" : "hbfernandezr@gmail.com",
+  "version" : 1,
+  "implements" : ["opennaasresourcemanager", "opennaasexceptions","opennaas_commands"],
+  "loads-after" : ["config", "worker"],
+  "requires" : []
+}
