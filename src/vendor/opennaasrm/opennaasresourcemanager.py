@@ -10,7 +10,7 @@ worker = pm.getService('worker')
 config = pm.getService('config')
 
 
-''' @author: Héctor Fernández'''
+''' @author: Hector Fernandez'''
 ''' @email: hbfernandezr@gmail.com'''
 
 

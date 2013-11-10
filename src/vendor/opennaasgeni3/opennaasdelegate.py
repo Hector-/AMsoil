@@ -12,7 +12,7 @@ opennaas_ex = pm.getService('opennaasexceptions')
 commands = pm.getService('opennaas_commands')
 
 
-''' @author: Héctor Fernández'''
+''' @author: Hector Fernandez'''
 ''' @email: hbfernandezr@gmail.com'''
 
 
@@ -29,11 +29,11 @@ class OPENNAASGENI3Delegate(GENIv3DelegateBase):
 
     def get_request_extensions_mapping(self):
         """Documentation see [geniv3rpc] GENIv3DelegateBase."""
-        return {'opennaas': 'http://extensionsExample.com/opennaas'}  # /request.xsd
+        return {'opennaas': 'https://github.com/Hector-/ocf-schemas/blob/master/req_schema.xsd'}  # /request.xsd
 
     def get_manifest_extensions_mapping(self):
         """Documentation see [geniv3rpc] GENIv3DelegateBase."""
-        return {'opennaas': 'https://github.com/Hector-/ocf-schemas/blob/master/manifest_schema.xsd'}  # /manifest.xsd
+        return {'opennaas': 'https://github.com/Hector-/ocf-schemas/blob/master/man_schema.xsd'}  # /manifest.xsd
 
     def get_ad_extensions_mapping(self):
         """Documentation see [geniv3rpc] GENIv3DelegateBase."""
