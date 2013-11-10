@@ -10,7 +10,7 @@ import xml.etree.ElementTree as ET
 
 """
 OpenNaas Commands Manager.
-@author: Roberto Monno
+author: Roberto Monno
 """
 
 

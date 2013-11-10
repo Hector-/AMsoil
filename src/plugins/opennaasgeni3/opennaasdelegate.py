@@ -12,7 +12,7 @@ opennaas_ex = pm.getService('opennaasexceptions')
 commands = pm.getService('opennaas_commands')
 
 
-''' @author: Héctor Fernández'''
+''' @author: Hector Fernandez'''
 ''' @email: hbfernandezr@gmail.com'''
 
 

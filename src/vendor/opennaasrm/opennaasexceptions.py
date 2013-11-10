@@ -1,7 +1,7 @@
 from amsoil.core.exception import CoreException
 
 
-''' @author: Héctor Fernández'''
+''' @author: Hector Fernandez'''
 ''' @email: hbfernandezr@gmail.com'''
 
 
